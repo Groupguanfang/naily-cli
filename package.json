@@ -1,0 +1,12 @@
+{
+  "name": "naily-cli",
+  "version": "2.0.13",
+  "description": "Naily (Nai Core) mini Nest.js的Cli工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
