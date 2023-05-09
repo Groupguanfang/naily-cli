@@ -1,6 +1,6 @@
 {
   "name": "naily-cli",
-  "version": "2.0.13",
+  "version": "2.0.13.1",
   "description": "Naily (Nai Core) mini Nest.js的Cli工具",
   "bin": {
     "naily": "dist/naily.js"
@@ -9,6 +9,9 @@
     "build": "tsc",
     "dev": "tsc && node dist/naily"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "nestjs",
     "nest",
