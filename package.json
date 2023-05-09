@@ -2,11 +2,36 @@
   "name": "naily-cli",
   "version": "2.0.13",
   "description": "Naily (Nai Core) mini Nest.js的Cli工具",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "naily": "dist/naily.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc && node dist/naily"
+  },
+  "keywords": [
+    "nestjs",
+    "nest",
+    "midway",
+    "midwayjs",
+    "nestjs-backend"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Groupguanfang/naily-cli.git"
+  },
+  "author": {
+    "name": "Zero",
+    "email": "gczgroup@qq.com",
+    "url": "https://github.com/Groupguanfang"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@types/inquirer": "^8",
+    "@types/node": "^20.1.1",
+    "gitly": "^2.4.2",
+    "inquirer": "^8",
+    "ora": "^5",
+    "typescript": "^5.0.4"
+  }
 }
